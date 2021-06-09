@@ -6,5 +6,8 @@ const firebaseConfig = {
   databaseURL: process.env.REACT_APP_FIREBASE_DB_URL,
   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
 };
+
+console.log(firebaseConfig, process.env);
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+const fierbaseApp = firebase.initializeApp(firebaseConfig);
+export default fierbaseApp;

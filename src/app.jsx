@@ -1,7 +1,8 @@
-import './app.css';
+import "./app.css";
+import Login from "./components/login/login";
 
-function App() {
-  return <h1>hello21233 :)</h1>;
+function App({ authServer }) {
+  return <Login authServer={authServer} />;
 }
 
 export default App;
