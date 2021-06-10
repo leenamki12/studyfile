@@ -7,7 +7,6 @@ const firebaseConfig = {
   projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
 };
 
-console.log(firebaseConfig, process.env);
 // Initialize Firebase
 const fierbaseApp = firebase.initializeApp(firebaseConfig);
 export default fierbaseApp;
